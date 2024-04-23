@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #11b2e3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.popover-content {
+    max-width: 200px;
+}
+
+#closeBtn {
+    margin-top: 10px;
+}

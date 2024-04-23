@@ -1,0 +1,24 @@
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+/* Style for each accordion item */
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+}
+
+/* Style for the accordion header */
+.accordion-header {
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Style for the accordion content (hidden by default) */
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
